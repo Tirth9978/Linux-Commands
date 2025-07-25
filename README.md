@@ -38,35 +38,7 @@ Each `.md` file includes:
 
 ---
 
-## 📎 Example
 
-From `apt.md`:
-
-```bash
-sudo apt update
-sudo apt upgrade -y
-sudo apt install <package-name>
-sudo apt remove <package-name>
-sudo apt autoremove
-```
-
-From `ls.md`:
-
-```bash
-ls -l      # long listing format
-ls -a      # show hidden files
-ls -lh     # human-readable sizes
-```
-
-From `rm.md`:
-
-```bash
-rm file.txt              # remove a file
-rm -r folder/            # remove a directory
-rm -rf folder/           # forcefully and recursively delete
-```
-
----
 
 ## 📌 Contribution
 
