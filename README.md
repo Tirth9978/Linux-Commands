@@ -4,16 +4,6 @@ A comprehensive collection of essential Linux terminal commands — explained wi
 
 ---
 
-## 📂 Repository Structure
-
-This repository contains categorized Linux command cheat sheets, including:
-
-- `apt.md` – Manage software packages using APT (Debian-based distros like Kali, Ubuntu)
-- `ls.md` – List directory contents with different flags
-- `rm.md` – Remove files and directories safely
-- *(More commands coming soon...)*
-
----
 
 ## 📘 What's Inside?
 
