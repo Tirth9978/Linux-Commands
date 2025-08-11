@@ -96,3 +96,8 @@ sed '3i This is a new line' file.txt
 ```bash 
 sed '3a This line comes after' file.txt
 ```
+
+## multi‑substitution :
+```bash
+sed -e 's/Junior/Jr/g' -e 's/Senior/Sr/g' students.txt
+```
