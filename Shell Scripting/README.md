@@ -100,7 +100,7 @@ fi
 - `-lt` : Less than
 - `-le` : Less than or equal to
 
-Exaple : 
+Example : 
 ```bash
 #!/bin/bash
 
@@ -111,4 +111,20 @@ if [ "$a" -ge "18" ]; then
 else
      echo "You can not Drive"
 fi
+```
+for num in {1..5}
+do
+    if [ "$num" -eq 3 ]; then
+        echo "Skipping 3"
+        continue
+    fi
+    if [ "$num" -eq 5 ]; then
+        echo "Stopping at 5"
+        break
+    fi
+    echo "Number: $num"
+done
+
+```sh
+
 ```
