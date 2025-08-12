@@ -79,6 +79,14 @@ echo "${arr[@]}"  # each element separately when quoted
 
 - Use `"${arr[@]}"` to iterate safely over elements (handles spaces).
 
+## User Input : 
+```bash
+#!/bin/bash
+echo "What is your name?"
+read name
+echo "Hello, $name!"
+```
+
 
 ## If statements  : 
 ### Basic syntax
@@ -125,6 +133,23 @@ do
     echo "Number: $num"
 done
 
-```sh
 
+## Loops 
+- `for` → go through a list of items
+- `while` → repeat while a condition is true
+- `until` → repeat until a condition is true
+
+- `for` Loop 
+```bash
+for item in apple banana orange; do
+    echo "I have a $item"
+done
 ```
+
+- C-style for loop
+```bash
+for ((i=1; i<=5; i++)); do
+    echo "Number $i"
+done
+```
+
